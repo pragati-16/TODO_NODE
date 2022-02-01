@@ -1,0 +1,17 @@
+#heading
+{
+    text-align:center;
+    font-size:35px;
+}
+#desc
+{
+border-top:none; 
+border-left:none; 
+border-right:none; 
+width:100%;
+}
+option 
+{
+width:50%;
+}
+ 
