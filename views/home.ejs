@@ -5,21 +5,29 @@
 </title>
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <link rel="stylesheet" href="/css/home.css">    <!-- including our css file  -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
   <h1 id="heading">TODO App</h1>   
-  <hr> 
+  <!-- <hr>    --> 
    <div id="upper">
     <form action="" method="POST">
-  
-     <table id="tab" width="100%"> 
-       <tr colspan="2"><td>
-    <label id="d">&nbsp &nbsp DESCRIPTION</label> <br>
-    <input type="text" placeholder="What do you need to do?" id="desc"> </input>
-       </td></tr> 
-        <hr> 
-       <tr><td> 
+    
+     <table id="tab">  
+          <!-- making table for getting data -->
+       <tr colspan="2">
+         <td>
+    <label id="d">&nbsp &nbsp DESCRIPTION</label> <br><br> 
+    <input type="text" placeholder="What do you need to do?" id="desc">  
+       </td>
+      </tr> 
+
+       <tr>
+         <td> 
     <label id="c">&nbsp &nbsp CATEGORY </label> <br> <br> 
     <select name="category" id="cat">
       <option> Choose a category </option> 
@@ -31,10 +39,25 @@
     </select>
   </td>
 
-  </table>
+  <td>
+    <label id="d">DUE DATE</label> <br>
+    <input type="date" class="dat"> 
+  </td>
+</tr> 
+  </table> <br><br> 
+     
+  <div class="buttons">
+  <button type="button" class="btn btn-lg btn-secondary" id="btn1"><i class="fas fa-plus-square" style="color:white;"></i><span style="color:white;">  ADD TASK </span></button>
+  <button type="button" class="btn btn-lg btn-dark" id="btn2"><i class="far fa-trash-alt" style="color:white;"></i><span style="color:white;">  DELETE TASKS </button>
+  </div>
+  <hr style="color:black;height:0.1%;">
+
     </form>
    </div>
 
 </body>
+ 
+ 
+
 </html>  
 

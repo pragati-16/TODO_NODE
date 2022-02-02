@@ -3,15 +3,42 @@
     text-align:center;
     font-size:35px;
 }
-#desc
+ #desc
 {
 border-top:none; 
 border-left:none; 
-border-right:none; 
-width:100%;
+border-right:none;
+width:181%;
+height:15%;
 }
-option 
+ #tab 
 {
-width:50%;
+width:100%;
+border:1px solid black;
+border-left:none;
+border-right:none;
+} 
+#cat, .dat 
+{
+width:92%;
+border-left:none;
+border-right:none;
+border-top:none;
+border-bottom:none;
 }
- 
+.buttons
+{
+text-align:center;
+}
+#btn1
+{
+background-color:black;
+height:8%;
+width:12%;
+}
+#btn2 
+{
+background-color:red;
+height:8.3%;
+width:12%;
+}
